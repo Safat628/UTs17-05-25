@@ -199,7 +199,7 @@ document.addEventListener('DOMContentLoaded', function() {
   const trailDot = document.querySelector('.cursor-trail-dot');
   let mouseX = 0, mouseY = 0;
   let dotX = 0, dotY = 0;
-  const ease = 0.4;  // faster easing
+  const ease = 0.8;  // faster easing
   const yOffset = 15;  // distance below the real cursor
 
   window.addEventListener('mousemove', (e) => {
