@@ -1,0 +1,554 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>UthsoTracer | Home</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="shortcut icon" href="assets/Variation-05.png" type="image/x-icon">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="menu-overlay"></div>
+  <div class="cursor-trail-dot"></div>
+
+  <!-- Header/Navigation -->
+  <header class="header">
+    <nav class="navbar">
+      <a href="#home" class="logo">
+        <img src="assets/Variation-02.png" alt="SERA Logo" class="logo-img">
+      </a>
+
+      <div class="nav-container">
+        <ul class="nav-links">
+          <a href="#home" class="nav-link hover-underline active">Home</a>
+          <a href="#about1" class="nav-link hover-underline">About</a>
+          <a href="#solution" class="nav-link hover-underline">Solution</a>
+          <a href="#contact" class="nav-link hover-underline">Contact</a>
+        </ul>
+
+        <div class="nav-actions">
+          <a href="https://pro14.sourcetrace.com:14443/AgTrace/login_execute" class="login-btn neo-btn">
+            <span>Login</span>
+            <i class="fas fa-arrow-right"></i>
+          </a>
+        </div>
+      </div>
+
+      <button class="hamburger" id="hamburger-menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </nav>
+  </header>
+
+  <main>
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+      <div class="video-background">
+        <video autoplay muted loop playsinline>
+          <source src="assets/22.mp4" type="video/mp4">
+        </video>
+        <div class="video-overlay"></div>
+      </div>
+
+      <div class="hero-container">
+        <div class="hero-content" data-animate="scale">
+          <h1 data-animate="fast" class="delay-1">UtshoTracer: Sustainable <br>e-Traceability Solution for Agri-Products</h1>
+          <p data-animate="fast" class="delay-2">Unlock Growth and Transparency in Your Agricultural Business with Digital Traceability</p>
+          <a href="#solution" class="cta-button" data-animate="fast" class="delay-3">
+            <span>See How It Works</span>
+            <i class="fas fa-arrow-right"></i>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about1" class="section about-section">
+      <div class="container">
+        <div class="about-block intro-block">
+          <div class="about-content" data-animate="left">
+            <h2 data-animate="fast" class="delay-1">Ever wonder where your food really comes from?</h2>
+            <p data-animate="fast" class="delay-2">With e-Traceability, you can track every step - from the farm to your table. It's a digital system that makes your supply chain transparent, efficient, and trustworthy.</p>
+          </div>
+          <div class="about-image" data-animate="right">
+            <img src="assets/about.png" alt="Digital traceability" loading="lazy">
+          </div>
+        </div>
+
+        <section class="benefits-2030">
+          <div class="section-header" data-animate>
+            <h2 data-animate="fast" class="delay-1">How Can Traceability Help Your Agri-Business</h2>
+            <p class="subtitle" data-animate="fast" class="delay-2">Implementing e-traceability can transform your agricultural business, providing a range of key benefits:</p>
+          </div>
+
+          <div class="benefit-flow">
+            <div class="benefit-line"></div>
+
+            <div class="benefit-item left" data-animate>
+              <div class="text">
+                <h3>Enhances Food Safety and Compliance</h3>
+                <p>Meet national and international food safety standards, and export requirements with verifiable, digital records.</p>
+              </div>
+            </div>
+
+            <div class="benefit-item right" data-animate>
+              <div class="text">
+                <h3>Builds Consumer Trust</h3>
+                <p>Provide consumers with confidence by transparently showcasing where and how your products are grown, processed, and handled.</p>
+              </div>
+            </div>
+
+            <div class="benefit-item left" data-animate>
+              <div class="text">
+                <h3>Improves Supply Chain Efficiency</h3>
+                <p>Identify bottlenecks and inefficiencies in your supply chain, enabling timely decision-making and better resource management.</p>
+              </div>
+            </div>
+
+            <div class="benefit-item right" data-animate>
+              <div class="text">
+                <h3>Mitigates Risk</h3>
+                <p>Quickly trace and recall affected products in the event of contamination or quality issues, minimizing financial and reputational damage.</p>
+              </div>
+            </div>
+
+            <div class="benefit-item left" data-animate>
+              <div class="text">
+                <h3>Increases Market Access</h3>
+                <p>Access premium markets and build stronger partnerships with buyers who demand traceable and certified products.</p>
+              </div>
+            </div>
+
+            <div class="benefit-item right" data-animate>
+              <div class="text">
+                <h3>Empowers Data-Driven Decisions</h3>
+                <p>Leverage real-time data to improve productivity, reduce losses, and optimize operations across your entire value chain.</p>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <div class="compliance-section" data-animate>
+          <h2 data-animate="fast" class="delay-1">Compliance with International Standards</h2>
+          <p class="subtitle" data-animate="fast" class="delay-2">Traceability is not just a benefit; it's increasingly a requirement. UtshoTracer helps you comply with critical international standards and regulations.</p>
+          <ul class="compliance-list">
+            <li><i class="fas fa-check-circle"></i>EU Regulation (EC) No 178/2002: Mandates full traceability of food products within the European Union for safety and recall purposes.</li>
+            <li><i class="fas fa-check-circle"></i>FDA FSMA (USA): The US Food Safety Modernization Act requires traceability for high-risk produce to prevent foodborne illnesses.</li>
+            <li><i class="fas fa-check-circle"></i>Global Market Demands: Many markets including Japan, South Korea, and the UAE, increasingly demand compliance with GlobalG.A.P. and digital traceability solutions.</li>
+            <li><i class="fas fa-check-circle"></i>EU Deforestation Regulation (EUDR): Requires proof that imports are deforestation-free and fully traceable.</li>
+            <li><i class="fas fa-check-circle"></i>GFSI Standards: Global Food Safety Initiative (GFSI) standards benchmark global food safety systems, which rely heavily on traceability.</li>
+            <li><i class="fas fa-check-circle"></i>Sustainability Certifications: Certifications like Rainforest Alliance, Organic, and Fair Trade require traceability to verify ethical and environmental compliance.</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- Solution Section -->
+    <section id="solution" class="section solution-section modern-solution">
+      <div class="container">
+        <div class="section-header text-center" data-animate>
+          <h2 data-animate="fast" class="delay-1">Why UtshoTracer?</h2>
+          <p class="subtitle" data-animate="fast" class="delay-2">UtshoTracer is a cutting-edge e-traceability solution designed to bring transparency, accountability, and efficiency to your agricultural supply chain. Empowering businesses to meet international standards, enhance brand trust, and drive sustainable growth.</p>
+        </div>
+
+        <div class="solution-grid">
+          <div class="solution-image" data-animate="left">
+            <img src="assets/UtshoTracer(Admin).png" alt="UtshoTracer mobile app" loading="lazy">
+          </div>
+
+          <div class="solution-features" data-animate="right">
+            <h3 data-animate="fast" class="delay-1">UtshoTracer is designed to be your comprehensive e-traceability partner, offering distinct advantages:</h3>
+            <div class="feature-list">
+              <div class="feature-item" data-animate="fast" class="delay-2">
+                <div class="feature-icon"><i class="fas fa-check"></i></div>
+                <span><strong>Enhance Brand Trust: </strong> Give buyers and consumers a transparent view of your product's journey, building trust and loyalty.</span>
+              </div>
+              <div class="feature-item" data-animate="fast" class="delay-3">
+                <div class="feature-icon"><i class="fas fa-check"></i></div>
+                <span><strong>Improve Operational Efficiency:</strong> Monitor supply chain activities, reduce waste, and improve resource management for a more streamlined operation.</span>
+              </div>
+              <div class="feature-item" data-animate="fast" class="delay-4">
+                <div class="feature-icon"><i class="fas fa-check"></i></div>
+                <span><strong>Ensure Regulatory Compliance:</strong> Meet the stringent requirements of export markets and food safety standards with ease.</span>
+              </div>
+              <div class="feature-item" data-animate="fast" class="delay-5">
+                <div class="feature-icon"><i class="fas fa-check"></i></div>
+                <span><strong>Respond Quickly to Issues:</strong> Swiftly track and isolate affected batches in case of recalls or quality concerns, minimizing disruption.</span>
+              </div>
+              <div class="feature-item" data-animate="fast" class="delay-6">
+                <div class="feature-icon"><i class="fas fa-check"></i></div>
+                <span><strong>Access Premium Markets:</strong> Demonstrate your commitment to quality and sustainability to access high-value buyers and markets.</span>
+              </div>
+              <div class="feature-item" data-animate="fast" class="delay-7">
+                <div class="feature-icon"><i class="fas fa-check"></i></div>
+                <span><strong>Drive Long-Term Growth:</strong> Utilize actionable data insights to make informed decisions, plan effectively, and manage your business smarter.</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <section id="impact-section" class="impact-container">
+        <h2>Already in the Loop</h2>
+        <div class="impact-grid">
+          <div class="impact-box">
+            <span class="counter" data-target="779">0</span>
+            <p>Enlisted Farmers</p>
+          </div>
+          <div class="impact-box">
+            <span class="counter" data-target="16">0</span>
+            <p>Enlisted Exporters</p>
+          </div>
+        </div>
+      </section>
+
+      <div class="features-section">
+        <div class="section-header" data-animate>
+          <h2 data-animate="fast" class="delay-1">Core Features</h2>
+          <p class="subtitle" data-animate="fast" class="delay-2">UtshoTracer provides a powerful suite of features to meet your traceability needs</p>
+        </div>
+
+        <div class="solutions1-grid">
+          <div class="solution1-card" data-animate>
+            <div class="solution1-content">
+              <div class="solution1-image">
+                <img src="assets/FinalEND.png" alt="End-to-End Tracking" loading="lazy">
+              </div>
+              <div class="solution1-text">
+                <h3>End-to-End Tracking</h3>
+                <p>Track and record every stage of production, post-harvest handling, and distribution with detailed precision.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="solution1-card" data-animate>
+            <div class="solution1-content reverse">
+              <div class="solution1-image">
+                <img src="assets/0.JPG" alt="Mobile Data Collection" loading="lazy">
+              </div>
+              <div class="solution1-text">
+                <h3>Mobile Data Collection</h3>
+                <p>Enable seamless field data collection through a user-friendly mobile app.</p>
+              </div>
+            </div>
+          </div>
+          
+          <div class="solution1-card" data-animate>
+            <div class="solution1-content">
+              <div class="solution1-image">
+                <img src="assets/digi.png" alt="End-to-End Tracking" loading="lazy">
+              </div>
+              <div class="solution1-text">
+                <h3>Digital Documentation</h3>
+                <p>Maintain systematic, verifiable digital records for compliance, audits, and streamlined fulfillment of buyer requirements.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="solution1-card" data-animate>
+            <div class="solution1-content reverse">
+              <div class="solution1-image">
+                <img src="assets/Analytics.jpeg" alt="Mobile Data Collection" loading="lazy">
+              </div>
+              <div class="solution1-text">
+                <h3>Real-Time Analytics</h3>
+                <p>Access dynamic dashboards with detailed analytics to gain valuable insights and monitor supply chain performance in real-time.</p>
+              </div>
+            </div>
+          </div>
+          
+          <div class="solution1-card" data-animate>
+            <div class="solution1-content">
+              <div class="solution1-image">
+                <img src="assets/lao.jpeg" alt="End-to-End Tracking" loading="lazy">
+              </div>
+              <div class="solution1-text">
+                <h3>QR Code Integration</h3>
+                <p>Assign unique QR codes to lot, empowering buyers to instantly verify product history and origin.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="clients-container">
+        <div class="clients-section" data-animate>
+          <h2 data-animate="fast" class="delay-1">Who We Serve</h2>
+          <p class="subtitle" data-animate="fast" class="delay-2">UtshoTracer is the ideal solution for a wide range of stakeholders in the agricultural sector</p>
+          <ul class="clients-list">
+            <li><i class="fas fa-check-circle"></i>Exporters of fresh fruits and vegetables</li>
+            <li><i class="fas fa-check-circle"></i>Farmer organizations and cooperatives</li>
+            <li><i class="fas fa-check-circle"></i>Agribusiness companies and aggregators</li>
+            <li><i class="fas fa-check-circle"></i>Certification and inspection bodies</li>
+            <li><i class="fas fa-check-circle"></i>Government and development agencies</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- Future Solutions Section -->
+    <section class="future-solutions minimal">
+      <div class="container">
+        <div class="section-header" data-animate>
+          <h2 data-animate="fast" class="delay-1">Future Innovative Services <span class="highlight">through UtshoTracer</span></h2>
+          <p class="subtitle" data-animate="fast" class="delay-2">Expanding capabilities to address evolving agricultural needs</p>
+        </div>
+
+        <div class="innovation-box" data-animate>
+          <div class="innovation-icon"><i class="fas fa-lightbulb"></i></div>
+          <div class="innovation-content">
+            <p>Innovation drives our commitment to building resilient, transparent, and sustainable agricultural value chains. We are continuously expanding our capabilities to address the evolving needs of modern agriculture, global trade, and environmental stewardship. Our future services are designed to empower businesses, uplift farmers, and foster sustainable growth.</p>
+          </div>
+        </div>
+
+        <div class="solutions-grid minimal">
+          <div class="solution-card" data-animate>
+            <h3 data-animate="fast" class="delay-1">Blockchain Integration</h3>
+            <p data-animate="fast" class="delay-2">Utilize the power of blockchain technology to create tamper-proof traceability records, ensuring enhanced data security, transparency, and stakeholder confidence throughout the supply chain.</p>
+            <div class="solution-footer">
+              <span class="solution-tag">Security</span>
+              <span class="solution-tag">Transparency</span>
+            </div>
+          </div>
+
+          <div class="solution-card " data-animate>
+            <h3 data-animate="fast" class="delay-1">AI-Driven Predictive Analytics</h3>
+            <p data-animate="fast" class="delay-2">Apply advanced artificial intelligence to anticipate quality issues, streamline supply chain operations, and enable smarter, data-backed decision-making for improved productivity and risk management.</p>
+            <div class="solution-footer">
+              <span class="solution-tag">AI</span>
+              <span class="solution-tag">Predictive</span>
+            </div>
+          </div>
+
+          <div class="solution-card" data-animate>
+            <h3 data-animate="fast" class="delay-1">IoT-Enabled Smart Farming</h3>
+            <p data-animate="fast" class="delay-2">Deploy IoT-based smart farming solutions to collect real-time data on soil conditions, crop health, and logistics, facilitating precision agriculture and boosting yield performance.</p>
+            <div class="solution-footer">
+              <span class="solution-tag">IoT</span>
+              <span class="solution-tag">Precision</span>
+            </div>
+          </div>
+
+          <div class="solution-card" data-animate>
+            <h3 data-animate="fast" class="delay-1">Carbon Footprint Tracking</h3>
+            <p data-animate="fast" class="delay-2">Implement innovative tools to measure, monitor, and report carbon emissions across the agricultural process, helping businesses achieve sustainability goals and meet global environmental standards.</p>
+            <div class="solution-footer">
+              <span class="solution-tag">Sustainability</span>
+              <span class="solution-tag">Carbon</span>
+            </div>
+          </div>
+
+          <div class="solution-card" data-animate>
+            <h3 data-animate="fast" class="delay-1">Farmer Empowerment Tools</h3>
+            <p data-animate="fast" class="delay-2">Provide farmers with digital profiles, targeted training, and direct market access opportunities, ensuring their active participation in premium supply chains and improving livelihoods.</p>
+            <div class="solution-footer">
+              <span class="solution-tag">Empowerment</span>
+              <span class="solution-tag">Training</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section">
+      <div class="contact-particles">
+        <div class="particle particle-1"></div>
+        <div class="particle particle-2"></div>
+        <div class="particle particle-3"></div>
+      </div>
+
+      <div class="contact-container">
+        <div class="contact-form-container" data-animate="left">
+          <div class="form-header">
+            <h2 class="section-title" data-animate="fast" class="delay-1">Connect With Us</h2>
+            <p class="section-subtitle" data-animate="fast" class="delay-2">We're excited to hear about your project</p>
+            <div class="header-divider">
+              <span class="divider-line"></span>
+              <span class="divider-dot"></span>
+              <span class="divider-line"></span>
+            </div>
+          </div>
+
+          <form id="contact-form-2025" class="contact-form-2025">
+            <div class="input-group floating">
+              <input type="text" id="full-name" name="full-name" required>
+              <label for="full-name">Full Name</label>
+              <div class="input-highlight"></div>
+            </div>
+
+            <div class="input-group floating">
+              <input type="email" id="email-2025" name="email" required>
+              <label for="email-2025">Email Address</label>
+              <div class="input-highlight"></div>
+            </div>
+
+            <div class="input-group floating">
+              <input type="tel" id="phone-2025" name="phone" required>
+              <label for="phone-2025">Phone Number</label>
+              <div class="input-highlight"></div>
+            </div>
+
+            <div class="input-group floating select-group">
+              <select id="subject" name="subject" required>
+                <option value="" disabled selected></option>
+                <option value="general">General Inquiry</option>
+                <option value="project">Project Discussion</option>
+                <option value="support">Technical Support</option>
+              </select>
+              <label for="subject">Subject</label>
+              <div class="input-highlight"></div>
+              <div class="select-arrow"></div>
+            </div>
+
+            <div class="input-group floating">
+              <textarea id="message-2025" name="message" rows="4" required></textarea>
+              <label for="message-2025">Your Message</label>
+              <div class="input-highlight"></div>
+            </div>
+
+            <button type="submit" class="submit-btn-2025">
+              <span>Send Message</span>
+              <div class="icon-wrapper">
+                <svg class="send-icon" viewBox="0 0 24 24">
+                  <path d="M2.01 21L23 12 2.01 3 2 10l15 2-15 2z"></path>
+                </svg>
+              </div>
+              <div class="hover-effect"></div>
+            </button>
+          </form>
+        </div>
+
+        <div class="contact-info-container" data-animate="right">
+          <div class="info-card">
+            <h3 class="info-title" data-animate="fast" class="delay-1">Our Global Presence</h3>
+
+            <div class="location-card active" data-location="dhaka">
+              <div class="location-header">
+                <h4>Bangladesh Office</h4>
+              </div>
+              <p class="location-address">
+                <i class="fas fa-map-marker-alt"></i> House 23/A, Street 2, Suite 4/C<br>Old DOHS, Banani, Dhaka 1206
+              </p>
+              <a href="tel:+8801315417566" class="contact-link">
+                <i class="fas fa-phone"></i> +88 01315-417566
+              </a>
+              <div class="location-contacts">
+                <a href="mailto:info@sera-bangladesh.com" class="contact-link">
+                  <i class="fas fa-envelope"></i> info@sera-bangladesh.com
+                </a>
+              </div>
+            </div>
+
+            <div class="location-card" data-location="stuttgart">
+              <div class="location-header">
+                <h4>Germany Office</h4>
+              </div>
+              <p class="location-address">
+                <i class="fas fa-map-marker-alt"></i> Hoffeldstraße 6<br>70597 Stuttgart, Germany
+              </p>
+            </div>
+
+            <div class="map-container">
+              <div class="map-toggle">
+                <button class="map-btn active" data-location="dhaka">Dhaka</button>
+                <button class="map-btn" data-location="stuttgart">Stuttgart</button>
+              </div>
+
+              <div class="dynamic-map">
+                <iframe class="map-iframe active" data-location="dhaka" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d11123.33591337763!2d90.3993233!3d23.7924175!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x37541c02483bee65%3A0x81843530bca1224e!2sSERA%20Bangladesh!5e1!3m2!1sen!2sbd!4v1730887762441!5m2!1sen!2sbd" allowfullscreen="" loading="lazy"></iframe>
+                <iframe class="map-iframe" data-location="stuttgart" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2629.963363037006!2d9.16111131567231!3d48.77891797928268!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4799db34f1a8c8a5%3A0xa0a3b9a3b4e4d4e5!2sHoffeldstra%C3%9Fe%206%2C%2070597%20Stuttgart%2C%20Germany!5e0!3m2!1sen!2sbd!4v1620000000000!5m2!1sen!2sbd" allowfullscreen="" loading="lazy"></iframe>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="modern-footer">
+    <div class="footer-content">
+      <div class="footer-grid">
+        <div class="footer-col about-col">
+          <h3>Follow Us</h3>
+          <div class="footer-social">
+            <a href="https://www.facebook.com" aria-label="Facebook" target="_blank" rel="noopener noreferrer">
+              <i class="fab fa-facebook-f"></i>
+            </a>
+            <a href="https://www.linkedin.com" aria-label="LinkedIn" target="_blank" rel="noopener noreferrer">
+              <i class="fab fa-linkedin-in"></i>
+            </a>
+            <a href="https://www.twitter.com" aria-label="Twitter" target="_blank" rel="noopener noreferrer">
+              <i class="fa-brands fa-x-twitter"></i>
+            </a>
+            <a href="https://www.youtube.com" aria-label="YouTube" target="_blank" rel="noopener noreferrer">
+              <i class="fab fa-youtube"></i>
+            </a>
+          </div>
+        </div>
+
+        <div class="footer-col links-col">
+          <h3>Quick Links</h3>
+          <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about1">About</a></li>
+            <li><a href="#solution">Solution</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col contact-col">
+          <h3>Contact Us</h3>
+          <div class="contact-info">
+            <div class="contact-item">
+              <i class="fas fa-map-marker-alt"></i>
+              <div class="contact-text">
+                <span>House 23/A, Street 2, Suite 4/C Old</span>
+                <span>DOHS, Banani, Dhaka 1206</span>
+              </div>
+            </div>
+            <div class="contact-item">
+              <i class="fas fa-phone"></i>
+              <span>+88 01315-417566</span>
+            </div>
+            <div class="contact-item">
+              <i class="fas fa-envelope"></i>
+              <span>info@sera-bangladesh.com</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-credits-wrapper">
+        <div class="footer-credits">
+          <div class="credit-item">
+            <span>Implemented By:</span>
+            <img src="assets/logosera.png" alt="SERA Bangladesh" loading="lazy">
+          </div>
+          <div class="credit-item">
+            <span>Supported By:</span>
+            <img src="assets/a2i-Logo-set.png" alt="a2i" loading="lazy">
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>&copy; 2025 UtshoTracer. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Back to Top Button -->
+  <a href="#" class="back-to-top" aria-label="Back to top">
+    <i class="fas fa-arrow-up"></i>
+  </a>
+
+  <script src="script.js"></script>
+</body>
+</html>
