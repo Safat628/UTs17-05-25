@@ -202,12 +202,30 @@ document.addEventListener('DOMContentLoaded', function() {
   const ease = 0.8;  // faster easing
   const yOffset = 15;  // distance below the real cursor
 
-  window.addEventListener('mousemove', (e) => {
+  // Only enable cursor trail on desktop devices (width > 768px)
+  function handleCursorTrail() {
+    if (window.innerWidth > 768) {
+      // Show cursor trail and set up event listeners
+      trailDot.style.display = 'block';
+      
+      window.addEventListener('mousemove', updateCursorPosition);
+      animateCursor();
+    } else {
+      // Hide cursor trail and remove event listeners
+      trailDot.style.display = 'none';
+      window.removeEventListener('mousemove', updateCursorPosition);
+    }
+  }
+
+  function updateCursorPosition(e) {
     mouseX = e.clientX;
     mouseY = e.clientY + yOffset;
-  });
+  }
 
   function animateCursor() {
+    // Only animate if we're on desktop
+    if (window.innerWidth <= 768) return;
+
     dotX += (mouseX - dotX) * ease;
     dotY += (mouseY - dotY) * ease;
 
@@ -216,5 +234,9 @@ document.addEventListener('DOMContentLoaded', function() {
     requestAnimationFrame(animateCursor);
   }
 
-  animateCursor();
+  // Initialize cursor trail based on screen size
+  handleCursorTrail();
+  
+  // Update on window resize
+  window.addEventListener('resize', handleCursorTrail);
 });
